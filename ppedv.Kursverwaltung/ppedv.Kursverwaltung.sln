@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.Kursverwaltung.Model", "ppedv.Kursverwaltung.Model\ppedv.Kursverwaltung.Model.csproj", "{14B2118C-32E2-44B1-B15B-3207178A18E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.Kursverwaltung.Data.EF", "ppedv.Kursverwaltung.Data.EF\ppedv.Kursverwaltung.Data.EF.csproj", "{DFC3B26D-57D4-4DEF-B78F-7D0B8AF988C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{14B2118C-32E2-44B1-B15B-3207178A18E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14B2118C-32E2-44B1-B15B-3207178A18E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14B2118C-32E2-44B1-B15B-3207178A18E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFC3B26D-57D4-4DEF-B78F-7D0B8AF988C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFC3B26D-57D4-4DEF-B78F-7D0B8AF988C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFC3B26D-57D4-4DEF-B78F-7D0B8AF988C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFC3B26D-57D4-4DEF-B78F-7D0B8AF988C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
