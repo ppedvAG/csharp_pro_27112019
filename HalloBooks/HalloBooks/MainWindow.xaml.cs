@@ -1,12 +1,14 @@
 ﻿using Newtonsoft.Json;
 using OfficeOpenXml;
 using OfficeOpenXml.Style;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Net;
 using System.Windows;
+using System.Windows.Controls;
 using System.Xml.Serialization;
 
 namespace HalloBooks
@@ -16,9 +18,16 @@ namespace HalloBooks
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
+        public MainWindow ()
         {
-            InitializeComponent();
+            InitializeComponent ();
+
+            Button b = null;
+            //MessageBox.Show(b?.Content.ToString());
+            MessageBox.Show(b != null ? b.Content.ToString() : "Schade"); //tenary if
+            //MessageBox.Show(b.Content ?? b.Content.ToString()); 
+
+
         }
 
         private void Suche(object sender, RoutedEventArgs e)
@@ -37,10 +46,19 @@ namespace HalloBooks
         {
             var books = grid.ItemsSource as IEnumerable<Volumeinfo>;
 
+            // var query = from b in books
+            //             where b.pageCount < 500
+            //             orderby b.language, b.title descending
+            //             select b;
+
+
+            var myTuple = new Tuple<int, string, DateTime>(744, "lala", DateTime.Now);
+
+
             var query = from b in books
                         where b.pageCount < 500
                         orderby b.language, b.title descending
-                        select b;
+                        select new { Seiten = b.pageCount, Dings = b.title }; //<-- Anonymer Datentyp
 
             grid.ItemsSource = query.ToList();
         }
