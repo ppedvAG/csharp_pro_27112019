@@ -20,7 +20,16 @@ namespace HalloTPL
                 Console.WriteLine("t1 fertig");
             });
 
+            var t2 = new Task<long>(() =>
+            {
+                Console.WriteLine("t2 gestartet");
+                Thread.Sleep(600);
+                Console.WriteLine("t2 fertig");
+                return 34567890;
+            });
+
             t1.Start();
+            t2.Start();
 
             Console.WriteLine("Ende");
             Console.ReadKey();
