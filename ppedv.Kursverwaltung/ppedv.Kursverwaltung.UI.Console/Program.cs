@@ -12,13 +12,12 @@ namespace ppedv.Kursverwaltung.UI.ConsoleUI
     {
         static void Main(string[] args)
         {
-
-
             Console.WriteLine("*** Kursverwaltung v0.1 ***");
 
             var core = new Core();
 
-            if (core.Repository.GetAll<Trainer>().Count() == 0)
+            //if (core.Repository.GetAll<Trainer>().Count() == 0)
+            if (core.Repository.Query<Trainer>().Count() == 0)
                 core.CreateDemodaten();
 
             foreach (var k in core.Repository.GetAll<Kurs>())
