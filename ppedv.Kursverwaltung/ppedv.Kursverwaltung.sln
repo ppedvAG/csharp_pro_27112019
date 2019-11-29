@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.Kursverwaltung.UI.Con
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.Kursverwaltung.UI.ConsoleCore", "ppedv.Kursverwaltung.UI.ConsoleCore\ppedv.Kursverwaltung.UI.ConsoleCore.csproj", "{C1E3651A-D36E-4A78-88FC-23D484737AF9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.Kursverwaltung.UI.Web", "ppedv.Kursverwaltung.UI.Web\ppedv.Kursverwaltung.UI.Web.csproj", "{515060C1-373D-4AA6-998F-8EF42011EE62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +50,10 @@ Global
 		{C1E3651A-D36E-4A78-88FC-23D484737AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1E3651A-D36E-4A78-88FC-23D484737AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1E3651A-D36E-4A78-88FC-23D484737AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{515060C1-373D-4AA6-998F-8EF42011EE62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{515060C1-373D-4AA6-998F-8EF42011EE62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{515060C1-373D-4AA6-998F-8EF42011EE62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{515060C1-373D-4AA6-998F-8EF42011EE62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
