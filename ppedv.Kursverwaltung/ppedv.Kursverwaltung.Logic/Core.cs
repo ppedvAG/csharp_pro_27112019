@@ -16,9 +16,6 @@ namespace ppedv.Kursverwaltung.Logic
             this.Repository = repo;
         }
 
-        public Core() : this(new Data.EF.EfRepository())
-        { }
-
         public void CreateDemodaten()
         {
             var faker = new Faker(locale: "de");

@@ -10,6 +10,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.Kursverwaltung.Data.EF.Tests", "ppedv.Kursverwaltung.Data.EF.Tests\ppedv.Kursverwaltung.Data.EF.Tests.csproj", "{6CD12055-90F1-4543-8F08-676A614FD99F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.Kursverwaltung.Logic", "ppedv.Kursverwaltung.Logic\ppedv.Kursverwaltung.Logic.csproj", "{6ECF87D2-36A7-4B72-B05B-92228B21AE86}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DFC3B26D-57D4-4DEF-B78F-7D0B8AF988C9} = {DFC3B26D-57D4-4DEF-B78F-7D0B8AF988C9}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.Kursverwaltung.UI.Console", "ppedv.Kursverwaltung.UI.Console\ppedv.Kursverwaltung.UI.Console.csproj", "{0E214BED-1377-4DD6-B1F7-6E987866C6B5}"
 EndProject

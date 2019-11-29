@@ -9,7 +9,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ppedv.Kursverwaltung.Data.EF\ppedv.Kursverwaltung.Data.EF.csproj" />
     <ProjectReference Include="..\ppedv.Kursverwaltung.Model\ppedv.Kursverwaltung.Model.csproj" />
   </ItemGroup>
 
