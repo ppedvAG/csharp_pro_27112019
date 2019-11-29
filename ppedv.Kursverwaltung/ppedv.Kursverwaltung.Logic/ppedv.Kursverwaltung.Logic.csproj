@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bogus" Version="28.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ppedv.Kursverwaltung.Data.EF\ppedv.Kursverwaltung.Data.EF.csproj" />
+    <ProjectReference Include="..\ppedv.Kursverwaltung.Model\ppedv.Kursverwaltung.Model.csproj" />
+  </ItemGroup>
+
+</Project>

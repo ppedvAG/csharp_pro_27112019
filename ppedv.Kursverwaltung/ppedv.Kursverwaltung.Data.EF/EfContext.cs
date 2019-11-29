@@ -12,7 +12,7 @@ namespace ppedv.Kursverwaltung.Data.EF
 
         public EfContext(string conString) : base(conString)
         { }
-        public EfContext() : this("Server=.;Database=Kursverwaltung_dev;Trusted_Connection=true;")
+        public EfContext() : this("Server=.\\SQLEXPRESS;Database=Kursverwaltung_dev;Trusted_Connection=true;")
         { }
     }
 }
